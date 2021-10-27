@@ -5,12 +5,22 @@
     "build": "next build",
     "start": "next start"
   },
+  "resolutions": {
+    "@linaria/babel-preset": "npm:@twstyled/linaria-babel-preset@3.0.0-beta.1",
+    "@linaria/preeval": "npm:@twstyled/linaria-preeval@3.0.0-beta.1"
+  },
   "dependencies": {
+    "@twstyled/babel-preset": "^3.2.4",
+    "@twstyled/core": "^3.2.4",
+    "@twstyled/linaria-babel-preset": "^3.0.0-beta.1",
     "linaria": "^2.1.0",
     "next": "latest",
+    "next-compose-plugins": "^2.2.1",
     "next-linaria": "^0.10.0",
+    "next-plugin-twstyled": "^3.2.4",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "tailwindcss": "2.1.4"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10"
