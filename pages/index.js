@@ -1,8 +1,9 @@
 import Head from 'next/head'
-import { styled } from 'linaria/react'
-import { css } from 'linaria'
+import { styled, css } from '@twstyled/core'
 
 const Box = styled.div`
+  @tailwind font-semibold;
+
   margin-top: 40px;
   margin-left: 40px;
   height: 200px;
@@ -32,6 +33,7 @@ export default function Home() {
         <title>With Linaria</title>
       </Head>
       <Box className={anotherClass}>Zero runtime CSS in JS</Box>
+      <p tw="font-semibold text-3xl md:text-4xl lg:text-5xl not-italic">ABC</p>
     </>
   )
 }
